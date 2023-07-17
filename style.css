@@ -58,6 +58,7 @@ nav a{
     padding: 10px 24px;
     border: none;
     margin-top: 10px;
+    color: #FFF;
 }
 /* Header Section End */
 
@@ -112,3 +113,51 @@ nav a{
     font-weight: 500;
 }
 /* Popular Section End*/
+
+/* Feature Section Start*/
+.feature-container{
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    gap: 50px;
+}
+.feature-title{
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
+}
+.feature-description{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    line-height: 30px;
+}
+/* Feature Section End*/
+
+.footer{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #adacb7;
+}
+.footer-title{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+}
+.copy{
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 10px;
+}
+.footer-img{
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    margin-top: 20px;
+}
