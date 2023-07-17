@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
 }
-/* Header Section */
+/* Header Section Start */
 nav{
     display: flex;
     justify-content: space-between;
@@ -59,6 +59,9 @@ nav a{
     border: none;
     margin-top: 10px;
 }
+/* Header Section End */
+
+/* Icon Section Start*/
 .icon{
     display: flex;
     justify-content: space-evenly;
@@ -67,17 +70,20 @@ nav a{
     border-bottom: 1px solid gray;
     border-top: 1px solid gray;
 }
-.pop-sec{
+/* Icon Section End*/
+
+/* Popular Section Start*/
+.popular-container{
     margin-top: 100px;
 }
-.pop-heading{
+.popular-title{
     color: #3A3A3A;
     font-size: 28px;
     font-weight: 600;
     line-height: 70px;
     text-align: center;
 }
-.image-container{
+.popular-image-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 50px;
@@ -95,3 +101,14 @@ nav a{
 .pop-img{
     width: 100%;
 }
+.pop-title{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 20px;
+    font-weight: 500;
+}
+.pop-description{
+    color: #787885;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* Popular Section End*/
