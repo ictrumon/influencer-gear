@@ -51,6 +51,7 @@ nav a{
     color: #3A3A3A;
     font-size: 16px;
     font-weight: 600;
+    width: 80%;
 }
 .btn{
     border-radius: 41px;
@@ -60,12 +61,16 @@ nav a{
     margin-top: 10px;
     color: #FFF;
 }
+.banner-img{
+    width: 380px;
+}
 /* Header Section End */
 
 /* Icon Section Start*/
 .icon{
     display: flex;
     justify-content: space-evenly;
+    background: #FFF;
     padding: 50px;
     margin-top: 100px;
     border-bottom: 1px solid gray;
@@ -135,6 +140,7 @@ nav a{
 }
 /* Feature Section End*/
 
+/* Footer Section Start*/
 .footer{
     height: 300px;
     display: flex;
@@ -161,3 +167,4 @@ nav a{
     padding: 10px;
     margin-top: 20px;
 }
+/* Footer Section End*/
