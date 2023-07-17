@@ -66,7 +66,7 @@ nav a{
 }
 /* Header Section End */
 
-/* Icon Section Start*/
+/* Icon Section Start */
 .icon{
     display: flex;
     justify-content: space-evenly;
@@ -76,9 +76,9 @@ nav a{
     border-bottom: 1px solid gray;
     border-top: 1px solid gray;
 }
-/* Icon Section End*/
+/* Icon Section End */
 
-/* Popular Section Start*/
+/* Popular Section Start */
 .popular-container{
     margin-top: 100px;
 }
@@ -117,9 +117,9 @@ nav a{
     font-size: 16px;
     font-weight: 500;
 }
-/* Popular Section End*/
+/* Popular Section End */
 
-/* Feature Section Start*/
+/* Feature Section Start */
 .feature-container{
     display: flex;
     align-items: center;
@@ -138,9 +138,9 @@ nav a{
     margin-top: 10px;
     line-height: 30px;
 }
-/* Feature Section End*/
+/* Feature Section End */
 
-/* Footer Section Start*/
+/* Footer Section Start */
 .footer{
     height: 300px;
     display: flex;
@@ -167,4 +167,42 @@ nav a{
     padding: 10px;
     margin-top: 20px;
 }
-/* Footer Section End*/
+/* Footer Section End */
+
+
+/* Mobile Version */
+@media screen and (max-width: 768px) {
+    nav, .icon, .banner-container, .feature-container, .footer{
+        flex-direction: column;
+    }
+    .banner-container{
+        background: none;
+    }
+    .icon img{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+        .popular-image-container{
+            grid-template-columns: 1fr;
+            justify-content: center;
+        }
+}
+
+
+/* Tablet Version */
+@media screen and (min-width: 768px) and (max-width: 992px){
+    nav, .icon, .banner-container, .feature-container{
+        flex-direction: column;
+    }
+    .banner-container{
+        background: none;
+    }
+    .icon img{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+        .popular-image-container{
+            grid-template-columns: 2fr;
+            justify-content: center;
+        }
+}
